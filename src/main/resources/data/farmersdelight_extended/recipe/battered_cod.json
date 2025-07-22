@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:flour/wheat"
+    },
+    {
+      "item": "farmersdelight:cod_slice"
+    },
+
+    {
+      "amount": 250,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "item.farmersdelight_extended.battered_cod"
+    }
+  ]
+}
