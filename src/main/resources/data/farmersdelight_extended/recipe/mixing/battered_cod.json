@@ -2,7 +2,7 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "c:flours/wheat"
+      "tag": "c:flours/wheat"
     },
     {
       "item": "farmersdelight:cod_slice"
