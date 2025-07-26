@@ -18,7 +18,28 @@ group = mod_group_id
 
 repositories {
     // Add here additional repositories if required by some of the dependencies below.
-    maven { url 'https://www.cursemaven.com' }
+    mavenLocal()
+    maven { url = "https://maven.createmod.net" } // Create, Ponder, Flywheel
+    maven { url = "https://mvn.devos.one/snapshots" } // Registrate
+    maven { url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven/" } // ForgeConfigAPIPort
+    maven { url = "https://maven.ryanliptak.com/" } // Appleskin
+    maven { url = "https://cursemaven.com" }
+    maven {url = "https://maven.blamejared.com/" }
+    maven {url = "https://modmaven.dev" }
+
+    exclusiveContent {
+        forRepository {
+            maven {
+                // Farmers Delight
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
 }
 
 base {
@@ -96,8 +117,20 @@ dependencies {
     // And its provides the option to then use net.minecraft as the group, and one of; client, server or joined as the module name, plus the game version as version.
     // For all intends and purposes: You can treat this dependency as if it is a normal library you would use.
     implementation "net.neoforged:neoforge:${neo_version}"
-    implementation "curse.maven:create-328085:6641610"
-    implementation "curse.maven:farmers-delight-398521:6597295"
+    implementation("com.simibubi.create:create-${minecraft_version}:${create_version}") { transitive = false }
+    implementation("net.createmod.ponder:Ponder-NeoForge-${minecraft_version}:${ponder_version}")
+    compileOnly("dev.engine-room.flywheel:flywheel-neoforge-api-${minecraft_version}:${flywheel_version}")
+    runtimeOnly("dev.engine-room.flywheel:flywheel-neoforge-${minecraft_version}:${flywheel_version}")
+    implementation("com.tterrag.registrate:Registrate:${registrate_version}")
+    implementation ("maven.modrinth:farmers-delight:${minecraft_version}-${farmersdelight_version}")
+
+    //Compile against the Appleskin API but do not include it at runtime
+    compileOnly ("squeek.appleskin:appleskin-neoforge:${appleskin_version}:api")
+    // at runtime, use the full Appleskin jar for NeoForge
+    runtimeOnly("squeek.appleskin:appleskin-neoforge:${appleskin_version}")
+
+    // JEI
+    runtimeOnly("mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}")
 
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
