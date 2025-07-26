@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "farmersdelight_extended:battered_cod"
+  },
+  "result": {
+    "id": "farmersdelight_extended:fried_cod"
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

@@ -7,4 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 public class ModFoodProperties {
     public static final FoodProperties BATTERED_COD = new FoodProperties.Builder()
             .nutrition(2).saturationModifier(.6f).effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3f).build();
+    public static final FoodProperties FRIED_COD = new FoodProperties.Builder()
+            .nutrition(6).saturationModifier(.6f).build();
 }

@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.farmersdelight_extended.food_items"))
                     .displayItems((parameters, output) -> {
                       output.accept(ModItems.BATTERED_COD);
+                      output.accept(ModItems.FRIED_COD);
                     }).build());
 
     public static void register(IEventBus eventBus) {
