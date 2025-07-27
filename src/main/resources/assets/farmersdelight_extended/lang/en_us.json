@@ -1,6 +1,17 @@
 {
   "item.farmersdelight_extended.battered_cod": "Battered Cod",
   "item.farmersdelight_extended.fried_cod": "Fried Cod",
+  "item.farmersdelight_extended.cut_potatoes": "Cut Potatoes",
+  "item.farmersdelight_extended.fries": "Fries",
+  "item.farmersdelight_extended.fish_and_chips": "Fish and Chips",
+  "item.farmersdelight_extended.honey_roll": "Honey Roll",
+  "item.farmersdelight_extended.chocolate_roll": "Chocolate Roll",
+  "item.farmersdelight_extended.bread_slice": "Bread Slice",
+  "item.farmersdelight_extended.toast": "Toast",
+  "item.farmersdelight_extended.battered_chicken_cut": "Battered Chicken Cut",
+  "item.farmersdelight_extended.fried_chicken_cut": "Fried Chicken Cut",
+  "item.farmersdelight_extended.chicken_and_fries": "Chicken and Fries",
+
 
   "creativetab.farmersdelight_extended.food_items": "Farmer's Delight: Extended Foods"
 }

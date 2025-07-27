@@ -20,6 +20,19 @@ public class ModCreativeModeTabs {
                     .displayItems((parameters, output) -> {
                       output.accept(ModItems.BATTERED_COD);
                       output.accept(ModItems.FRIED_COD);
+                      output.accept(ModItems.CUT_POTATOES);
+                      output.accept(ModItems.FRIES);
+                      output.accept(ModItems.FISH_AND_CHIPS);
+                      output.accept(ModItems.CUT_POTATOES);
+                      output.accept(ModItems.FRIES);
+                      output.accept(ModItems.FISH_AND_CHIPS);
+                      output.accept(ModItems.HONEY_ROLL);
+                      output.accept(ModItems.CHOCOLATE_ROLL);
+                      output.accept(ModItems.BREAD_SLICE);
+                      output.accept(ModItems.TOAST);
+                      output.accept(ModItems.BATTERED_CHICKEN_CUT);
+                      output.accept(ModItems.FRIED_CHICKEN_CUT);
+                      output.accept(ModItems.CHICKEN_AND_FRIES);
                     }).build());
 
     public static void register(IEventBus eventBus) {

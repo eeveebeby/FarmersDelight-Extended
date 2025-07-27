@@ -13,6 +13,26 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.BATTERED_COD)));
     public static final DeferredItem<Item> FRIED_COD = ITEMS.register("fried_cod",
             () -> new Item(new Item.Properties().food(ModFoodProperties.FRIED_COD)));
+    public static final DeferredItem<Item> CUT_POTATOES = ITEMS.register("cut_potatoes",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CUT_POTATOES)));
+    public static final DeferredItem<Item> FRIES = ITEMS.register("fries",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.FRIES)));
+    public static final DeferredItem<Item> FISH_AND_CHIPS = ITEMS.register("fish_and_chips",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.FISH_AND_CHIPS)));
+    public static final DeferredItem<Item> HONEY_ROLL = ITEMS.register("honey_roll",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.HONEY_ROLL)));
+    public static final DeferredItem<Item> CHOCOLATE_ROLL = ITEMS.register("chocolate_roll",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CHOCOLATE_ROLL)));
+    public static final DeferredItem<Item> BREAD_SLICE = ITEMS.register("bread_slice",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BREAD_SLICE)));
+    public static final DeferredItem<Item> TOAST = ITEMS.register("toast",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.TOAST)));
+    public static final DeferredItem<Item> BATTERED_CHICKEN_CUT = ITEMS.register("battered_chicken_cut",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BATTERED_CHICKEN_CUT)));
+    public static final DeferredItem<Item> FRIED_CHICKEN_CUT = ITEMS.register("fried_chicken_cut",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.FRIED_CHICKEN_CUT)));
+    public static final DeferredItem<Item> CHICKEN_AND_FRIES = ITEMS.register("chicken_and_fries",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CHICKEN_AND_FRIES)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
