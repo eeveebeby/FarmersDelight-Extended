@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "farmersdelight_extended:bread_slice"
+  },
+  "result": {
+    "id": "farmersdelight_extended:toast"
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}
