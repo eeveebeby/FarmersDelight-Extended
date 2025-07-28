@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "farmersdelight_extended:fries"
+    },
+    {
+      "item": "farmersdelight_extended:fried_chicken_cut"
+    }
+  ],
+  "result": {
+    "id": "farmersdelight_extended:chicken_and_fries"
+  }
+}

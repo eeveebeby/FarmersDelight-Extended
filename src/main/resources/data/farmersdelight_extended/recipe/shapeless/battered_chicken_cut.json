@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:flours/wheat"
+    },
+    {
+      "item": "farmersdelight:chicken_cuts"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "id": "farmersdelight_extended:battered_chicken_cut"
+  }
+}
