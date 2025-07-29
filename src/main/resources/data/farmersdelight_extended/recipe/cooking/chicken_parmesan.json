@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersdelight:raw_pasta"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "item": "farmersdelight_extended:fried_chicken"
+    },
+    {
+      "item": "farmersdelight_extended:fresh_cheese"
+    }
+  ],
+  "result": {
+    "id": "farmersdelight_extended:chicken_parmesan"
+  },
+  "cookingtime": 200,
+  "experience": 1.0
+}
