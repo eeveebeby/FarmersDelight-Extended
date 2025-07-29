@@ -25,12 +25,16 @@ public class ModFoodProperties {
             .nutrition(2).saturationModifier(.8f).build();
     public static final FoodProperties TOAST = new FoodProperties.Builder()
             .nutrition(2).saturationModifier(.8f).build();
-    public static final FoodProperties BATTERED_CHICKEN_CUT = new FoodProperties.Builder()
+    public static final FoodProperties BATTERED_CHICKEN = new FoodProperties.Builder()
             .nutrition(2).saturationModifier(.3f).effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3f).build();
-    public static final FoodProperties FRIED_CHICKEN_CUT = new FoodProperties.Builder()
+    public static final FoodProperties FRIED_CHICKEN = new FoodProperties.Builder()
             .nutrition(6).saturationModifier(.6f).build();
     public static final FoodProperties CHICKEN_AND_FRIES = new FoodProperties.Builder()
             .nutrition(12).saturationModifier(.8f).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 3600, 0), 1).build();
     public static final FoodProperties FRESH_CHEESE = new FoodProperties.Builder()
             .nutrition(4).saturationModifier(.6f).build();
+    public static final FoodProperties CHEESEBURGER = new FoodProperties.Builder()
+            .nutrition(13).saturationModifier(.9f).build();
+    public static final FoodProperties CHICKEN_PARMESAN = new FoodProperties.Builder()
+            .nutrition(14).saturationModifier(.8f).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 6000, 0), 1).build();
 }

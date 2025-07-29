@@ -30,10 +30,12 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.CHOCOLATE_ROLL);
                       output.accept(ModItems.BREAD_SLICE);
                       output.accept(ModItems.TOAST);
-                      output.accept(ModItems.BATTERED_CHICKEN_CUT);
-                      output.accept(ModItems.FRIED_CHICKEN_CUT);
+                      output.accept(ModItems.BATTERED_CHICKEN);
+                      output.accept(ModItems.FRIED_CHICKEN);
                       output.accept(ModItems.CHICKEN_AND_FRIES);
                       output.accept(ModItems.FRESH_CHEESE);
+                      output.accept(ModItems.CHEESEBURGER);
+                      output.accept(ModItems.CHICKEN_PARMESAN);
                     }).build());
 
     public static void register(IEventBus eventBus) {

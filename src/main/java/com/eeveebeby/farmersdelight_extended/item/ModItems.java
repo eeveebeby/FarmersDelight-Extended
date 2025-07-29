@@ -28,14 +28,18 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.BREAD_SLICE)));
     public static final DeferredItem<Item> TOAST = ITEMS.register("toast",
             () -> new Item(new Item.Properties().food(ModFoodProperties.TOAST)));
-    public static final DeferredItem<Item> BATTERED_CHICKEN_CUT = ITEMS.register("battered_chicken_cut",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.BATTERED_CHICKEN_CUT)));
-    public static final DeferredItem<Item> FRIED_CHICKEN_CUT = ITEMS.register("fried_chicken_cut",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.FRIED_CHICKEN_CUT)));
+    public static final DeferredItem<Item> BATTERED_CHICKEN = ITEMS.register("battered_chicken",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BATTERED_CHICKEN)));
+    public static final DeferredItem<Item> FRIED_CHICKEN = ITEMS.register("fried_chicken",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.FRIED_CHICKEN)));
     public static final DeferredItem<Item> CHICKEN_AND_FRIES = ITEMS.register("chicken_and_fries",
             () -> new Item(new Item.Properties().food(ModFoodProperties.CHICKEN_AND_FRIES).stacksTo(16).craftRemainder(Items.BOWL)));
     public static final DeferredItem<Item> FRESH_CHEESE = ITEMS.register("fresh_cheese",
             () -> new FreshCheeseItem(new Item.Properties().food(ModFoodProperties.FRESH_CHEESE)));
+    public static final DeferredItem<Item> CHEESEBURGER = ITEMS.register("cheeseburger",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CHEESEBURGER)));
+    public static final DeferredItem<Item> CHICKEN_PARMESAN = ITEMS.register("chicken_parmesan",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CHICKEN_PARMESAN).stacksTo(16).craftRemainder(Items.BOWL)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

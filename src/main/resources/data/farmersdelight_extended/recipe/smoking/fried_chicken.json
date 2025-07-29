@@ -1,10 +1,10 @@
 {
   "type": "minecraft:smoking",
   "ingredient": {
-    "item": "farmersdelight_extended:battered_chicken_cut"
+    "item": "farmersdelight_extended:battered_chicken"
   },
   "result": {
-    "id": "farmersdelight_extended:fried_chicken_cut"
+    "id": "farmersdelight_extended:fried_chicken"
   },
   "experience": 0.35,
   "cookingtime": 100
