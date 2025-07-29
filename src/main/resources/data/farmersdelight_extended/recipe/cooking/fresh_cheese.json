@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "c:buckets/milk"
+    }
+  ],
+  "result": {
+    "id": "farmersdelight_extended:fresh_cheese"
+  },
+  "cookingtime": 200,
+  "experience": 1.0
+}

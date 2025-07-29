@@ -2,6 +2,7 @@ package com.eeveebeby.farmersdelight_extended;
 
 import com.eeveebeby.farmersdelight_extended.item.ModCreativeModeTabs;
 import com.eeveebeby.farmersdelight_extended.item.ModItems;
+import com.eeveebeby.farmersdelight_extended.item.ModSounds;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
@@ -44,6 +45,8 @@ public class FarmersDelight_Extended {
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
+
+        ModSounds.SOUND_EVENTS.register(modEventBus);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);

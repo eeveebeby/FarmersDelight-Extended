@@ -31,4 +31,6 @@ public class ModFoodProperties {
             .nutrition(6).saturationModifier(.6f).build();
     public static final FoodProperties CHICKEN_AND_FRIES = new FoodProperties.Builder()
             .nutrition(12).saturationModifier(.8f).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 3600, 0), 1).build();
+    public static final FoodProperties FRESH_CHEESE = new FoodProperties.Builder()
+            .nutrition(4).saturationModifier(.6f).build();
 }
