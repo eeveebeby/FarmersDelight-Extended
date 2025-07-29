@@ -3,16 +3,19 @@
   "recipe_book_tab": "meals",
   "ingredients": [
     {
-      "item": "minecraft:raw_beef"
+      "item": "minecraft:beef"
     },
     {
-      "tag": "farmersdelight_extended:doughs"
+      "tag": "farmersdelight_extended:dough"
     },
     {
       "tag": "c:mushrooms"
     },
     {
-      "item": "farmersdelight:bacon"
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:potato"
     }
   ],
   "result": {
