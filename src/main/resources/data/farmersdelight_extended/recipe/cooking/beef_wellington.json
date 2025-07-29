@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "minecraft:raw_beef"
+    },
+    {
+      "tag": "farmersdelight_extended:doughs"
+    },
+    {
+      "tag": "c:mushrooms"
+    },
+    {
+      "item": "farmersdelight:bacon"
+    }
+  ],
+  "result": {
+    "id": "farmersdelight_extended:beef_wellington"
+  },
+  "cookingtime": 200,
+  "experience": 1.0
+}

@@ -36,6 +36,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.FRESH_CHEESE);
                       output.accept(ModItems.CHEESEBURGER);
                       output.accept(ModItems.CHICKEN_PARMESAN);
+                      output.accept(ModItems.BEEF_WELLINGTON);
                     }).build());
 
     public static void register(IEventBus eventBus) {
