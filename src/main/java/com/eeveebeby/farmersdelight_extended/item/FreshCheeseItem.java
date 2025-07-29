@@ -1,5 +1,7 @@
 package com.eeveebeby.farmersdelight_extended.item;
 
+import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
@@ -38,6 +40,9 @@ public class FreshCheeseItem extends Item {
                         1.0f,
                         0.9f + world.random.nextFloat() * 0.2f
                 );
+
+                Component message = Component.literal("You forgot that you are lactose intolerant!").withStyle(ChatFormatting.GOLD);
+                player.sendSystemMessage(message);
             }
 
             player.getCooldowns().addCooldown(this, 30);
