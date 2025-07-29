@@ -8,7 +8,8 @@ import vectorwing.farmersdelight.common.registry.ModEffects;
 
 public class ModFoodProperties {
     public static final FoodProperties BATTERED_COD = new FoodProperties.Builder()
-            .nutrition(2).saturationModifier(.2f).effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3f).build();
+            .nutrition(2).saturationModifier(.2f)
+            .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3f).build();
     public static final FoodProperties FRIED_COD = new FoodProperties.Builder()
             .nutrition(6).saturationModifier(.6f).build();
     public static final FoodProperties CUT_POTATOES = new FoodProperties.Builder()
@@ -16,7 +17,9 @@ public class ModFoodProperties {
     public static final FoodProperties FRIES = new FoodProperties.Builder()
             .nutrition(6).saturationModifier(.6f).build();
     public static final FoodProperties FISH_AND_CHIPS = new FoodProperties.Builder()
-            .nutrition(12).saturationModifier(.8f).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 3600, 0), 1).build();
+            .nutrition(12).saturationModifier(.8f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 3600, 0), 1)
+            .build();
     public static final FoodProperties HONEY_ROLL = new FoodProperties.Builder()
             .nutrition(6).saturationModifier(.6f).build();
     public static final FoodProperties CHOCOLATE_ROLL = new FoodProperties.Builder()
@@ -26,17 +29,34 @@ public class ModFoodProperties {
     public static final FoodProperties TOAST = new FoodProperties.Builder()
             .nutrition(2).saturationModifier(.8f).build();
     public static final FoodProperties BATTERED_CHICKEN = new FoodProperties.Builder()
-            .nutrition(2).saturationModifier(.3f).effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3f).build();
+            .nutrition(2).saturationModifier(.3f)
+            .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3f).build();
     public static final FoodProperties FRIED_CHICKEN = new FoodProperties.Builder()
             .nutrition(6).saturationModifier(.6f).build();
     public static final FoodProperties CHICKEN_AND_FRIES = new FoodProperties.Builder()
-            .nutrition(12).saturationModifier(.8f).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 3600, 0), 1).build();
+            .nutrition(12).saturationModifier(.8f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 3600, 0), 1)
+            .build();
     public static final FoodProperties FRESH_CHEESE = new FoodProperties.Builder()
             .nutrition(4).saturationModifier(.6f).build();
     public static final FoodProperties CHEESEBURGER = new FoodProperties.Builder()
             .nutrition(13).saturationModifier(.9f).build();
     public static final FoodProperties CHICKEN_PARMESAN = new FoodProperties.Builder()
-            .nutrition(14).saturationModifier(.8f).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 6000, 0), 1).build();
+            .nutrition(14).saturationModifier(.8f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 6000, 0), 1)
+            .build();
     public static final FoodProperties BEEF_WELLINGTON = new FoodProperties.Builder()
-            .nutrition(14).saturationModifier(.8f).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 6000, 0), 1).build();
+            .nutrition(14).saturationModifier(.8f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 6000, 0), 1)
+            .build();
+    public static final FoodProperties SPICY_FRIED_CHICKEN = new FoodProperties.Builder()
+            .nutrition(6).saturationModifier(.6f)
+            .effect(() -> new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 300, 1), 1).build();
+    public static final FoodProperties SPICY_CHICKEN_AND_FRIES = new FoodProperties.Builder()
+            .nutrition(12).saturationModifier(.8f)
+            .effect(() -> new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 300, 1), 1)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 3600, 0), 1)
+            .build();
 }

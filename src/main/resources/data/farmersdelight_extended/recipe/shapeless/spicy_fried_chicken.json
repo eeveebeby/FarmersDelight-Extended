@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmersdelight_extended:fried_chicken"
+    },
+    {
+      "item": "farmersdelight_extended:fried_chicken"
+    },
+    {
+      "item": "farmersdelight_extended:fried_chicken"
+    },
+    {
+      "item": "farmersdelight_extended:fried_chicken"
+    },
+    {
+      "item": "farmersdelight_extended:fried_chicken"
+    },
+    {
+      "item": "farmersdelight_extended:fried_chicken"
+    },
+    {
+      "item": "farmersdelight_extended:fried_chicken"
+    },
+    {
+      "item": "farmersdelight_extended:fried_chicken"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "result": {
+    "id": "farmersdelight_extended:spicy_fried_chicken",
+    "count": 8
+  }
+}
