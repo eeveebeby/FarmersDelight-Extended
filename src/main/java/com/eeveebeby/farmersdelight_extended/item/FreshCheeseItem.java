@@ -41,8 +41,8 @@ public class FreshCheeseItem extends Item {
                         0.9f + world.random.nextFloat() * 0.2f
                 );
 
-                Component message = Component.literal("You forgot that you are lactose intolerant!").withStyle(ChatFormatting.GOLD);
-                player.sendSystemMessage(message);
+//                Component message = Component.literal("You forgot that you are lactose intolerant!").withStyle(ChatFormatting.GOLD);
+//                player.sendSystemMessage(message);
             }
 
             player.getCooldowns().addCooldown(this, 30);

@@ -20,8 +20,8 @@ public class SpicyFriedChickenItem extends Item {
         if (!plevel.isClientSide) {
             pLivingEntity.igniteForSeconds(15);
 
-            Component message = Component.literal("Feeling hot, hot, hot!").withStyle(ChatFormatting.RED);
-            pLivingEntity.sendSystemMessage(message);
+//            Component message = Component.literal("Feeling hot, hot, hot!").withStyle(ChatFormatting.RED);
+//            pLivingEntity.sendSystemMessage(message);
         }
 
         return resultStack;
