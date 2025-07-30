@@ -59,4 +59,6 @@ public class ModFoodProperties {
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 300, 1), 1)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 3600, 0), 1)
             .build();
+    public static final FoodProperties SHREDDED_POTATOES = new FoodProperties.Builder()
+            .nutrition(1).saturationModifier(.8f).build();
 }

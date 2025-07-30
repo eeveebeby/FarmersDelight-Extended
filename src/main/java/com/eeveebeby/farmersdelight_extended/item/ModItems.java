@@ -46,6 +46,8 @@ public class ModItems {
             () -> new SpicyFriedChickenItem(new Item.Properties().food(ModFoodProperties.SPICY_FRIED_CHICKEN)));
     public static final DeferredItem<Item> SPICY_CHICKEN_AND_FRIES = ITEMS.register("spicy_chicken_and_fries",
             () -> new SpicyFriedChickenItem(new Item.Properties().food(ModFoodProperties.SPICY_CHICKEN_AND_FRIES).stacksTo(16).craftRemainder(Items.BOWL)));
+    public static final DeferredItem<Item> SHREDDED_POTATOES = ITEMS.register("shredded_potatoes",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SHREDDED_POTATOES)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

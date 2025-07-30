@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "processing_time": 150,
+  "results": [
+    {
+      "count": 2,
+      "id": "farmersdelight_extended:shredded_potatoes"
+    },
+    {
+      "chance": 0.25,
+      "id": "farmersdelight_extended:shredded_potatoes"
+    }
+  ]
+}
