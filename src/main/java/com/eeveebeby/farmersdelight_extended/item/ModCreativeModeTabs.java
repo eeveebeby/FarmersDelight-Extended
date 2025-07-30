@@ -15,7 +15,7 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FarmersDelight_Extended.MOD_ID);
 
     public static final Supplier<CreativeModeTab> FOODS_TAB = CREATIVE_MODE_TAB.register("foods_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BATTERED_COD.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CHICKEN_PARMESAN.get()))
                     .title(Component.translatable("creativetab.farmersdelight_extended.food_items"))
                     .displayItems((parameters, output) -> {
 
