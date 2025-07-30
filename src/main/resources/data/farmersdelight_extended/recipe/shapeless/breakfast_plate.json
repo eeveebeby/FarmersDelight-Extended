@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "farmersdelight_extended:hashbrowns"
+    },
+    {
+      "item": "farmersdelight_extended:toast"
+    },
+    {
+      "item": "farmersdelight:fried_egg"
+    }
+  ],
+  "result": {
+    "id": "farmersdelight_extended:breakfast_plate"
+  }
+}

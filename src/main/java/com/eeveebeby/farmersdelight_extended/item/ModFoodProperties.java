@@ -63,4 +63,10 @@ public class ModFoodProperties {
             .nutrition(1).saturationModifier(.8f).build();
     public static final FoodProperties HASHBROWNS = new FoodProperties.Builder()
             .nutrition(6).saturationModifier(.6f).build();
+    public static final FoodProperties LOADED_BAKED_POTATO = new FoodProperties.Builder()
+            .nutrition(11).saturationModifier(.8f).build();
+    public static final FoodProperties BREAKFAST_PLATE = new FoodProperties.Builder()
+            .nutrition(10).saturationModifier(.6f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 1200, 0), 1)
+            .build();
 }
