@@ -7,11 +7,15 @@ import vectorwing.farmersdelight.common.registry.ModEffects;
 
 
 public class ModFoodProperties {
+
+    // Group 1
     public static final FoodProperties BATTERED_COD = new FoodProperties.Builder()
             .nutrition(2).saturationModifier(.2f)
             .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3f).build();
     public static final FoodProperties FRIED_COD = new FoodProperties.Builder()
             .nutrition(6).saturationModifier(.6f).build();
+
+    // Group 2
     public static final FoodProperties CUT_POTATOES = new FoodProperties.Builder()
             .nutrition(1).saturationModifier(.8f).build();
     public static final FoodProperties FRIES = new FoodProperties.Builder()
@@ -37,6 +41,8 @@ public class ModFoodProperties {
             .nutrition(12).saturationModifier(.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 3600, 0), 1)
             .build();
+
+    // Group 3
     public static final FoodProperties FRESH_CHEESE = new FoodProperties.Builder()
             .nutrition(4).saturationModifier(.6f).build();
     public static final FoodProperties CHEESEBURGER = new FoodProperties.Builder()
@@ -69,4 +75,6 @@ public class ModFoodProperties {
             .nutrition(10).saturationModifier(.6f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 1200, 0), 1)
             .build();
+
+    // Group 4
 }

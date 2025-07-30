@@ -10,10 +10,13 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(FarmersDelight_Extended.MOD_ID);
 
+    // Group 1
     public static final DeferredItem<Item> BATTERED_COD = ITEMS.register("battered_cod",
             () -> new Item(new Item.Properties().food(ModFoodProperties.BATTERED_COD)));
     public static final DeferredItem<Item> FRIED_COD = ITEMS.register("fried_cod",
             () -> new Item(new Item.Properties().food(ModFoodProperties.FRIED_COD)));
+
+    // Group 2
     public static final DeferredItem<Item> CUT_POTATOES = ITEMS.register("cut_potatoes",
             () -> new Item(new Item.Properties().food(ModFoodProperties.CUT_POTATOES)));
     public static final DeferredItem<Item> FRIES = ITEMS.register("fries",
@@ -34,6 +37,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.FRIED_CHICKEN)));
     public static final DeferredItem<Item> CHICKEN_AND_FRIES = ITEMS.register("chicken_and_fries",
             () -> new Item(new Item.Properties().food(ModFoodProperties.CHICKEN_AND_FRIES).stacksTo(16).craftRemainder(Items.BOWL)));
+
+    // Group 3
     public static final DeferredItem<Item> FRESH_CHEESE = ITEMS.register("fresh_cheese",
             () -> new FreshCheeseItem(new Item.Properties().food(ModFoodProperties.FRESH_CHEESE)));
     public static final DeferredItem<Item> CHEESEBURGER = ITEMS.register("cheeseburger",
@@ -54,6 +59,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.LOADED_BAKED_POTATO)));
     public static final DeferredItem<Item> BREAKFAST_PLATE = ITEMS.register("breakfast_plate",
             () -> new Item(new Item.Properties().food(ModFoodProperties.BREAKFAST_PLATE).stacksTo(16).craftRemainder(Items.BOWL)));
+
+    //Group 4
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

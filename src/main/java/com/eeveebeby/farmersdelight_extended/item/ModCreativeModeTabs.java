@@ -18,8 +18,12 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BATTERED_COD.get()))
                     .title(Component.translatable("creativetab.farmersdelight_extended.food_items"))
                     .displayItems((parameters, output) -> {
+
+                      // Group 1
                       output.accept(ModItems.BATTERED_COD);
                       output.accept(ModItems.FRIED_COD);
+
+                      // Group 2
                       output.accept(ModItems.CUT_POTATOES);
                       output.accept(ModItems.FRIES);
                       output.accept(ModItems.FISH_AND_CHIPS);
@@ -33,6 +37,8 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.BATTERED_CHICKEN);
                       output.accept(ModItems.FRIED_CHICKEN);
                       output.accept(ModItems.CHICKEN_AND_FRIES);
+
+                      // Group 3
                       output.accept(ModItems.FRESH_CHEESE);
                       output.accept(ModItems.CHEESEBURGER);
                       output.accept(ModItems.CHICKEN_PARMESAN);
