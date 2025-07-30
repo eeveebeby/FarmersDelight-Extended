@@ -61,4 +61,6 @@ public class ModFoodProperties {
             .build();
     public static final FoodProperties SHREDDED_POTATOES = new FoodProperties.Builder()
             .nutrition(1).saturationModifier(.8f).build();
+    public static final FoodProperties HASHBROWNS = new FoodProperties.Builder()
+            .nutrition(6).saturationModifier(.6f).build();
 }
