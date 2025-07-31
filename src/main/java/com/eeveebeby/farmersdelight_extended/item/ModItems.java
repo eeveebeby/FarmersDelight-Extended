@@ -55,8 +55,6 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.SHREDDED_POTATOES)));
     public static final DeferredItem<Item> HASHBROWNS = ITEMS.register("hashbrowns",
             () -> new Item(new Item.Properties().food(ModFoodProperties.HASHBROWNS)));
-    public static final DeferredItem<Item> LOADED_BAKED_POTATO = ITEMS.register("loaded_baked_potato",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.LOADED_BAKED_POTATO)));
     public static final DeferredItem<Item> BREAKFAST_PLATE = ITEMS.register("breakfast_plate",
             () -> new Item(new Item.Properties().food(ModFoodProperties.BREAKFAST_PLATE).stacksTo(16).craftRemainder(Items.BOWL)));
 

@@ -47,7 +47,6 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.SPICY_CHICKEN_AND_FRIES);
                       output.accept(ModItems.SHREDDED_POTATOES);
                       output.accept(ModItems.HASHBROWNS);
-                      output.accept(ModItems.LOADED_BAKED_POTATO);
                       output.accept(ModItems.BREAKFAST_PLATE);
                     }).build());
 
