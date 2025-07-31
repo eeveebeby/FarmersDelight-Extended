@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "farmersdelight_extended:item/chicken_and_fries"
+    "layer0": "farmersdelight_extended:item/spicy_chicken_and_fries"
   }
 }
