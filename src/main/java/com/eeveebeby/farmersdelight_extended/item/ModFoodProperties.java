@@ -50,6 +50,7 @@ public class ModFoodProperties {
     public static final FoodProperties CHICKEN_PARMESAN = new FoodProperties.Builder()
             .nutrition(14).saturationModifier(.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, 6000, 0), 1)
+            .effect(() -> new MobEffectInstance(ModEffects.COMFORT, 6000, 0), 1)
             .build();
     public static final FoodProperties BEEF_WELLINGTON = new FoodProperties.Builder()
             .nutrition(14).saturationModifier(.8f)
