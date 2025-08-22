@@ -79,4 +79,10 @@ public class ModFoodProperties {
     public static final FoodProperties GOLDEN_APPLE_CIDER = new FoodProperties.Builder()
             .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 2400, 1), 1)
             .build();
+    public static final FoodProperties BROWNIE = new FoodProperties.Builder()
+            .nutrition(8).saturationModifier(.6f)
+            .build();
+    public static final FoodProperties BROWNIE_BATTER = new FoodProperties.Builder()
+        .nutrition(2).saturationModifier(.3f)
+        .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3f).build();
 }

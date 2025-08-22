@@ -62,9 +62,13 @@ public class ModItems {
     public static final DeferredItem<Item> BREAKFAST_PLATE = ITEMS.register("breakfast_plate",
             () -> new Item(new Item.Properties().food(ModFoodProperties.BREAKFAST_PLATE).stacksTo(16).craftRemainder(Items.BOWL)));
 
-    //Group 4
+    // Group 4
     public static final DeferredItem<Item> GOLDEN_APPLE_CIDER = ITEMS.register("golden_apple_cider",
             () -> new DrinkableItem(new Item.Properties().food(ModFoodProperties.GOLDEN_APPLE_CIDER).stacksTo(16).craftRemainder(Items.GLASS_BOTTLE), true, false));
+    public static final DeferredItem<Item> BROWNIE = ITEMS.register("brownie",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BROWNIE)));
+    public static final DeferredItem<Item> BROWNIE_BATTER = ITEMS.register("brownie_batter",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BROWNIE_BATTER)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
