@@ -1,11 +1,15 @@
 package com.eeveebeby.farmersdelight_extended.item;
 
+import java.util.Properties;
+
 import com.eeveebeby.farmersdelight_extended.FarmersDelight_Extended;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import vectorwing.farmersdelight.common.item.DrinkableItem;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(FarmersDelight_Extended.MOD_ID);
@@ -59,6 +63,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.BREAKFAST_PLATE).stacksTo(16).craftRemainder(Items.BOWL)));
 
     //Group 4
+    public static final DeferredItem<Item> GOLDEN_APPLE_CIDER = ITEMS.register("golden_apple_cider",
+            () -> new DrinkableItem(new Item.Properties().food(ModFoodProperties.GOLDEN_APPLE_CIDER).stacksTo(16).craftRemainder(Items.GLASS_BOTTLE), true, false));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

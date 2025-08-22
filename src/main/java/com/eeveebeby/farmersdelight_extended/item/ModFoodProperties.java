@@ -76,4 +76,7 @@ public class ModFoodProperties {
             .build();
 
     // Group 4
+    public static final FoodProperties GOLDEN_APPLE_CIDER = new FoodProperties.Builder()
+            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 2400, 1), 1)
+            .build();
 }
