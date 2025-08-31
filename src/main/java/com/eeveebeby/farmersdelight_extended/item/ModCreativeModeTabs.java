@@ -48,6 +48,12 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.SHREDDED_POTATOES);
                       output.accept(ModItems.HASHBROWNS);
                       output.accept(ModItems.BREAKFAST_PLATE);
+
+                      // Group 4
+                      output.accept(ModItems.GOLDEN_APPLE_CIDER);
+                      output.accept(ModItems.CHOCOLATE_BROWNIE);
+                      output.accept(ModItems.BROWNIE_BATTER);
+                      output.accept(ModItems.BROWNIE);
                     }).build());
 
     public static void register(IEventBus eventBus) {

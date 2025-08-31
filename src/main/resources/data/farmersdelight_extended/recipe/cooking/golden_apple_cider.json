@@ -1,0 +1,24 @@
+{
+    "type": "farmersdelight:cooking",
+    "recipe_book_tab": "drinks",
+    "ingredients": [
+      {
+        "item": "minecraft:golden_apple"
+      },
+      {
+        "item": "minecraft:golden_apple"
+      },
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+        "item": "minecraft:glow_berries"
+      }
+    ],
+    "result": {
+      "id": "farmersdelight_extended:golden_apple_cider"
+    },
+    "cookingtime": 200,
+    "experience": 1.0
+  }
+  

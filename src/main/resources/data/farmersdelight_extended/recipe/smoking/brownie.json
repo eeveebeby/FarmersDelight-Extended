@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+      "item": "farmersdelight_extended:brownie_batter"
+    },
+    "result": {
+      "id": "farmersdelight_extended:brownie"
+    },
+    "experience": 0.35,
+    "cookingtime": 600
+  }
