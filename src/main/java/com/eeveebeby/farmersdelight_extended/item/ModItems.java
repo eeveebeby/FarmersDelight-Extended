@@ -67,6 +67,8 @@ public class ModItems {
             () -> new DrinkableItem(new Item.Properties().food(ModFoodProperties.GOLDEN_APPLE_CIDER).stacksTo(16).craftRemainder(Items.GLASS_BOTTLE), true, false));
     public static final DeferredItem<Item> BROWNIE = ITEMS.register("brownie",
             () -> new Item(new Item.Properties().food(ModFoodProperties.BROWNIE)));
+    public static final DeferredItem<Item> CHOCOLATE_BROWNIE = ITEMS.register("chocolate_brownie",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CHOCOLATE_BROWNIE)));
     public static final DeferredItem<Item> BROWNIE_BATTER = ITEMS.register("brownie_batter",
             () -> new Item(new Item.Properties().food(ModFoodProperties.BROWNIE_BATTER)));
 
