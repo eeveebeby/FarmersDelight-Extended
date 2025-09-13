@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:flours/wheat"
+    },
+    {
+      "tag": "c:mushrooms"
+    },
+    {
+      "amount": 250,
+      "fluid": "minecraft:water",
+      "type": "fluid_stack"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight_extended:battered_mushroom"
+    }
+  ]
+}

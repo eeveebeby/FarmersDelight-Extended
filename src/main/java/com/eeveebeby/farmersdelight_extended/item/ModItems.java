@@ -71,6 +71,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.CHOCOLATE_BROWNIE)));
     public static final DeferredItem<Item> BROWNIE_BATTER = ITEMS.register("brownie_batter",
             () -> new Item(new Item.Properties().food(ModFoodProperties.BROWNIE_BATTER)));
+    public static final DeferredItem<Item> BATTERED_MUSHROOM = ITEMS.register("battered_mushroom",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BATTERED_MUSHROOM)));
+    public static final DeferredItem<Item> FRIED_MUSHROOM = ITEMS.register("fried_mushroom",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.FRIED_MUSHROOM)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

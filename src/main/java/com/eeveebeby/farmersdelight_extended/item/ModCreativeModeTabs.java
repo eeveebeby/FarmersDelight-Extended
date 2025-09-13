@@ -54,6 +54,8 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.CHOCOLATE_BROWNIE);
                       output.accept(ModItems.BROWNIE_BATTER);
                       output.accept(ModItems.BROWNIE);
+                      output.accept(ModItems.FRIED_MUSHROOM);
+                      output.accept(ModItems.BATTERED_MUSHROOM);
                     }).build());
 
     public static void register(IEventBus eventBus) {

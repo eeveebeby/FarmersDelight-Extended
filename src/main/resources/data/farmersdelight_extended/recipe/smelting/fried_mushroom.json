@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "farmersdelight_extended:battered_mushroom"
+  },
+  "result": {
+    "id": "farmersdelight_extended:fried_mushroom"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

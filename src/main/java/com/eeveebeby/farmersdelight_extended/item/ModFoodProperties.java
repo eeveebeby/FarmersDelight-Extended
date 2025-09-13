@@ -88,4 +88,9 @@ public class ModFoodProperties {
     public static final FoodProperties BROWNIE_BATTER = new FoodProperties.Builder()
         .nutrition(2).saturationModifier(.3f)
         .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3f).build();
+    public static final FoodProperties BATTERED_MUSHROOM = new FoodProperties.Builder()
+        .nutrition(2).saturationModifier(.2f)
+        .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3f).build();
+    public static final FoodProperties FRIED_MUSHROOM = new FoodProperties.Builder()
+        .nutrition(6).saturationModifier(.6f).build();
 }
