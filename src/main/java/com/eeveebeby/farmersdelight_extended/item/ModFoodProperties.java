@@ -76,4 +76,12 @@ public class ModFoodProperties {
             .build();
 
     // Group 4
+    public static final FoodProperties CHORUS_COOKIE = new FoodProperties.Builder()
+            .nutrition(2).saturationModifier(.1f)
+            .fast().alwaysEdible().build();
+    public static final FoodProperties GLOW_BERRY_COOKIE = new FoodProperties.Builder()
+            .nutrition(2).saturationModifier(.1f)
+            .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 100, 0), 1)
+            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 100, 0), 1)
+            .fast().alwaysEdible().build();
 }

@@ -59,6 +59,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.BREAKFAST_PLATE).stacksTo(16).craftRemainder(Items.BOWL)));
 
     //Group 4
+    public static final DeferredItem<Item> CHORUS_COOKIE = ITEMS.register("chorus_cookie",
+            () -> new ChorusFoodItem(new Item.Properties().food(ModFoodProperties.CHORUS_COOKIE)));
+    public static final DeferredItem<Item> GLOW_BERRY_COOKIE = ITEMS.register("glow_berry_cookie",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.GLOW_BERRY_COOKIE)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
