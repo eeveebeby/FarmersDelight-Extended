@@ -3,6 +3,8 @@ package com.eeveebeby.farmersdelight_extended.item;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
+import net.neoforged.fml.common.Mod;
+import org.apache.commons.lang3.function.FailableObjDoubleConsumer;
 import vectorwing.farmersdelight.common.registry.ModEffects;
 
 
@@ -59,7 +61,8 @@ public class ModFoodProperties {
     public static final FoodProperties SPICY_FRIED_CHICKEN = new FoodProperties.Builder()
             .nutrition(6).saturationModifier(.6f)
             .effect(() -> new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1)
-            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 300, 1), 1).build();
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 300, 1), 1)
+            .build();
     public static final FoodProperties SPICY_CHICKEN_AND_FRIES = new FoodProperties.Builder()
             .nutrition(12).saturationModifier(.8f)
             .effect(() -> new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1)
@@ -84,4 +87,18 @@ public class ModFoodProperties {
             .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 100, 0), 1)
             .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 100, 0), 1)
             .fast().alwaysEdible().build();
+    public static final FoodProperties CHORUS_POPSICLE = new FoodProperties.Builder()
+            .nutrition(3).saturationModifier(.2f)
+            .alwaysEdible().build();
+    public static final FoodProperties GLOW_BERRY_POPSICLE = new FoodProperties.Builder()
+            .nutrition(3).saturationModifier(.2f)
+            .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 100, 0), 1)
+            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 100, 0), 1)
+            .alwaysEdible().build();
+    public static final FoodProperties SWEET_BERRY_POPSICLE = new FoodProperties.Builder()
+            .nutrition(3).saturationModifier(.2f)
+            .alwaysEdible().build();
+    public static final FoodProperties CHOCOLATE_POPSICLE = new FoodProperties.Builder()
+            .nutrition(3).saturationModifier(.2f)
+            .alwaysEdible().build();
 }

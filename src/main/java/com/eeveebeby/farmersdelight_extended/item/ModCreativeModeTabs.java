@@ -52,10 +52,10 @@ public class ModCreativeModeTabs {
                       // Group 4
                       output.accept(ModItems.CHORUS_COOKIE);
                       output.accept(ModItems.GLOW_BERRY_COOKIE);
-//                      output.accept(ModItems.CHORUS_POPSICLE);
-//                      output.accept(ModItems.GLOW_BERRY_POPSICLE);
-//                      output.accept(ModItems.SWEET_BERRY_POPSICLE);
-//                      output.accept(ModItems.CHOCOLATE_POPSICLE);
+                      output.accept(ModItems.CHORUS_POPSICLE);
+                      output.accept(ModItems.GLOW_BERRY_POPSICLE);
+                      output.accept(ModItems.SWEET_BERRY_POPSICLE);
+                      output.accept(ModItems.CHOCOLATE_POPSICLE);
 //                      output.accept(ModItems.CHORUS_CUSTARD);
 //                      output.accept(ModItems.SWEET_BERRY_CUSTARD);
 //                      output.accept(ModItems.CHOCOLATE_CUSTARD);

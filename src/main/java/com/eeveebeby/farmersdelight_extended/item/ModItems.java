@@ -1,6 +1,7 @@
 package com.eeveebeby.farmersdelight_extended.item;
 
 import com.eeveebeby.farmersdelight_extended.FarmersDelight_Extended;
+import com.eeveebeby.farmersdelight_extended.item.custom_properties.*;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.neoforged.bus.api.IEventBus;
@@ -63,7 +64,16 @@ public class ModItems {
             () -> new ChorusFoodItem(new Item.Properties().food(ModFoodProperties.CHORUS_COOKIE)));
     public static final DeferredItem<Item> GLOW_BERRY_COOKIE = ITEMS.register("glow_berry_cookie",
             () -> new Item(new Item.Properties().food(ModFoodProperties.GLOW_BERRY_COOKIE)));
+    public static final DeferredItem<Item> CHORUS_POPSICLE = ITEMS.register("chorus_popsicle",
+            () -> new ChorusPopsicleItem(new Item.Properties().food(ModFoodProperties.CHORUS_POPSICLE)));
+    public static final DeferredItem<Item> GLOW_BERRY_POPSICLE = ITEMS.register("glow_berry_popsicle",
+            () -> new PopsicleIceCreamItem(new Item.Properties().food(ModFoodProperties.GLOW_BERRY_POPSICLE)));
+    public static final DeferredItem<Item> SWEET_BERRY_POPSICLE = ITEMS.register("sweet_berry_popsicle",
+            () -> new PopsicleIceCreamItem(new Item.Properties().food(ModFoodProperties.SWEET_BERRY_POPSICLE)));
+    public static final DeferredItem<Item> CHOCOLATE_POPSICLE = ITEMS.register("chocolate_popsicle",
+            () -> new PopsicleIceCreamItem(new Item.Properties().food(ModFoodProperties.CHOCOLATE_POPSICLE)));
 
+    // Register
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
