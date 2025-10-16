@@ -146,5 +146,5 @@ public class ModFoodProperties {
     public static final FoodProperties MOCHI = new FoodProperties.Builder()
             .nutrition(6).saturationModifier(.6f).build();
     public static final FoodProperties MOCHI_ICECREAM = new FoodProperties.Builder()
-            .nutrition(6).saturationModifier(.8f).alwaysEdible().build();
+            .nutrition(12).saturationModifier(.4f).alwaysEdible().build();
 }
