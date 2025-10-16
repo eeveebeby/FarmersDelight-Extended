@@ -72,6 +72,12 @@ public class ModItems {
             () -> new PopsicleIceCreamItem(new Item.Properties().food(ModFoodProperties.SWEET_BERRY_POPSICLE)));
     public static final DeferredItem<Item> CHOCOLATE_POPSICLE = ITEMS.register("chocolate_popsicle",
             () -> new PopsicleIceCreamItem(new Item.Properties().food(ModFoodProperties.CHOCOLATE_POPSICLE)));
+    public static final DeferredItem<Item> CHORUS_CUSTARD = ITEMS.register("chorus_custard",
+            () -> new ChorusFoodItem(new Item.Properties().food(ModFoodProperties.CHORUS_CUSTARD)));
+    public static final DeferredItem<Item> SWEET_BERRY_CUSTARD = ITEMS.register("sweet_berry_custard",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SWEET_BERRY_CUSTARD)));
+    public static final DeferredItem<Item> CHOCOLATE_CUSTARD = ITEMS.register("chocolate_custard",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CHOCOLATE_CUSTARD)));
 
     // Register
     public static void register(IEventBus eventBus) {

@@ -3,8 +3,6 @@ package com.eeveebeby.farmersdelight_extended.item;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
-import net.neoforged.fml.common.Mod;
-import org.apache.commons.lang3.function.FailableObjDoubleConsumer;
 import vectorwing.farmersdelight.common.registry.ModEffects;
 
 
@@ -100,5 +98,14 @@ public class ModFoodProperties {
             .alwaysEdible().build();
     public static final FoodProperties CHOCOLATE_POPSICLE = new FoodProperties.Builder()
             .nutrition(3).saturationModifier(.2f)
+            .alwaysEdible().build();
+    public static final FoodProperties CHORUS_CUSTARD = new FoodProperties.Builder()
+            .nutrition(7).saturationModifier(.6f)
+            .alwaysEdible().build();
+    public static final FoodProperties SWEET_BERRY_CUSTARD = new FoodProperties.Builder()
+            .nutrition(7).saturationModifier(.6f)
+            .alwaysEdible().build();
+    public static final FoodProperties CHOCOLATE_CUSTARD = new FoodProperties.Builder()
+            .nutrition(7).saturationModifier(.6f)
             .alwaysEdible().build();
 }

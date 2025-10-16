@@ -56,9 +56,9 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.GLOW_BERRY_POPSICLE);
                       output.accept(ModItems.SWEET_BERRY_POPSICLE);
                       output.accept(ModItems.CHOCOLATE_POPSICLE);
-//                      output.accept(ModItems.CHORUS_CUSTARD);
-//                      output.accept(ModItems.SWEET_BERRY_CUSTARD);
-//                      output.accept(ModItems.CHOCOLATE_CUSTARD);
+                      output.accept(ModItems.CHORUS_CUSTARD);
+                      output.accept(ModItems.SWEET_BERRY_CUSTARD);
+                      output.accept(ModItems.CHOCOLATE_CUSTARD);
 //                      output.accept(ModItems.ICECREAM_SCOOP);
 //                      output.accept(ModItems.GLOW_BERRY_ICECREAM_SCOOP);
 //                      output.accept(ModItems.CHORUS_ICECREAM_SCOOP);
