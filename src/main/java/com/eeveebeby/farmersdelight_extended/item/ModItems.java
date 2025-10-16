@@ -100,6 +100,11 @@ public class ModItems {
             () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.SWEET_BERRY_ICECREAM_SANDWICH)));
     public static final DeferredItem<Item> CHOCOLATE_ICECREAM_SANDWICH = ITEMS.register("chocolate_icecream_sandwich",
             () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.CHOCOLATE_ICECREAM_SANDWICH)));
+    public static final DeferredItem<Item> RICE_FLOUR = ITEMS.registerSimpleItem("rice_flour");
+    public static final DeferredItem<Item> MOCHI = ITEMS.register("mochi",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.MOCHI)));
+    public static final DeferredItem<Item> MOCHI_ICECREAM = ITEMS.register("mochi_icecream",
+            () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.MOCHI_ICECREAM)));
 
     // Register
     public static void register(IEventBus eventBus) {

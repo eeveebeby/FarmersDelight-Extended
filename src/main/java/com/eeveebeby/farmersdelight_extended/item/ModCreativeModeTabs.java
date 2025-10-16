@@ -70,9 +70,9 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.CHORUS_ICECREAM_SANDWICH);
                       output.accept(ModItems.SWEET_BERRY_ICECREAM_SANDWICH);
                       output.accept(ModItems.CHOCOLATE_ICECREAM_SANDWICH);
-//                      output.accept(ModItems.RICE_FLOUR);
-//                      output.accept(ModItems.MOCHI);
-//                      output.accept(ModItems.MOCHI_ICECREAM);
+                      output.accept(ModItems.RICE_FLOUR);
+                      output.accept(ModItems.MOCHI);
+                      output.accept(ModItems.MOCHI_ICECREAM);
                     }).build());
 
 
