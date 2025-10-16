@@ -41,7 +41,7 @@ public class ModItems {
 
     // Group 3
     public static final DeferredItem<Item> FRESH_CHEESE = ITEMS.register("fresh_cheese",
-            () -> new FreshCheeseItem(new Item.Properties().food(ModFoodProperties.FRESH_CHEESE)));
+            () -> new FartFoodItem(new Item.Properties().food(ModFoodProperties.FRESH_CHEESE)));
     public static final DeferredItem<Item> CHEESEBURGER = ITEMS.register("cheeseburger",
             () -> new Item(new Item.Properties().food(ModFoodProperties.CHEESEBURGER)));
     public static final DeferredItem<Item> CHICKEN_PARMESAN = ITEMS.register("chicken_parmesan",
@@ -49,9 +49,9 @@ public class ModItems {
     public static final DeferredItem<Item> BEEF_WELLINGTON = ITEMS.register("beef_wellington",
             () -> new Item(new Item.Properties().food(ModFoodProperties.BEEF_WELLINGTON).stacksTo(16).craftRemainder(Items.BOWL)));
     public static final DeferredItem<Item> SPICY_FRIED_CHICKEN = ITEMS.register("spicy_fried_chicken",
-            () -> new SpicyFriedChickenItem(new Item.Properties().food(ModFoodProperties.SPICY_FRIED_CHICKEN)));
+            () -> new SpicyFoodItem(new Item.Properties().food(ModFoodProperties.SPICY_FRIED_CHICKEN)));
     public static final DeferredItem<Item> SPICY_CHICKEN_AND_FRIES = ITEMS.register("spicy_chicken_and_fries",
-            () -> new SpicyFriedChickenItem(new Item.Properties().food(ModFoodProperties.SPICY_CHICKEN_AND_FRIES).stacksTo(16).craftRemainder(Items.BOWL)));
+            () -> new SpicyFoodItem(new Item.Properties().food(ModFoodProperties.SPICY_CHICKEN_AND_FRIES).stacksTo(16).craftRemainder(Items.BOWL)));
     public static final DeferredItem<Item> SHREDDED_POTATOES = ITEMS.register("shredded_potatoes",
             () -> new Item(new Item.Properties().food(ModFoodProperties.SHREDDED_POTATOES)));
     public static final DeferredItem<Item> HASHBROWNS = ITEMS.register("hashbrowns",
@@ -65,19 +65,29 @@ public class ModItems {
     public static final DeferredItem<Item> GLOW_BERRY_COOKIE = ITEMS.register("glow_berry_cookie",
             () -> new Item(new Item.Properties().food(ModFoodProperties.GLOW_BERRY_COOKIE)));
     public static final DeferredItem<Item> CHORUS_POPSICLE = ITEMS.register("chorus_popsicle",
-            () -> new ChorusPopsicleItem(new Item.Properties().food(ModFoodProperties.CHORUS_POPSICLE)));
+            () -> new ChorusFrozenItem(new Item.Properties().food(ModFoodProperties.CHORUS_POPSICLE)));
     public static final DeferredItem<Item> GLOW_BERRY_POPSICLE = ITEMS.register("glow_berry_popsicle",
-            () -> new PopsicleIceCreamItem(new Item.Properties().food(ModFoodProperties.GLOW_BERRY_POPSICLE)));
+            () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.GLOW_BERRY_POPSICLE)));
     public static final DeferredItem<Item> SWEET_BERRY_POPSICLE = ITEMS.register("sweet_berry_popsicle",
-            () -> new PopsicleIceCreamItem(new Item.Properties().food(ModFoodProperties.SWEET_BERRY_POPSICLE)));
+            () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.SWEET_BERRY_POPSICLE)));
     public static final DeferredItem<Item> CHOCOLATE_POPSICLE = ITEMS.register("chocolate_popsicle",
-            () -> new PopsicleIceCreamItem(new Item.Properties().food(ModFoodProperties.CHOCOLATE_POPSICLE)));
+            () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.CHOCOLATE_POPSICLE)));
     public static final DeferredItem<Item> CHORUS_CUSTARD = ITEMS.register("chorus_custard",
             () -> new ChorusFoodItem(new Item.Properties().food(ModFoodProperties.CHORUS_CUSTARD)));
     public static final DeferredItem<Item> SWEET_BERRY_CUSTARD = ITEMS.register("sweet_berry_custard",
             () -> new Item(new Item.Properties().food(ModFoodProperties.SWEET_BERRY_CUSTARD)));
     public static final DeferredItem<Item> CHOCOLATE_CUSTARD = ITEMS.register("chocolate_custard",
             () -> new Item(new Item.Properties().food(ModFoodProperties.CHOCOLATE_CUSTARD)));
+    public static final DeferredItem<Item> ICECREAM_SCOOP = ITEMS.register("icecream_scoop",
+            () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.ICECREAM_SCOOP)));
+    public static final DeferredItem<Item> GLOW_BERRY_ICECREAM_SCOOP = ITEMS.register("glow_berry_icecream_scoop",
+            () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.GLOW_BERRY_ICECREAM_SCOOP)));
+    public static final DeferredItem<Item> CHORUS_ICECREAM_SCOOP = ITEMS.register("chorus_icecream_scoop",
+            () -> new ChorusFrozenItem(new Item.Properties().food(ModFoodProperties.CHORUS_ICECREAM_SCOOP)));
+    public static final DeferredItem<Item> SWEET_BERRY_ICECREAM_SCOOP = ITEMS.register("sweet_berry_icecream_scoop",
+            () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.SWEET_BERRY_ICECREAM_SCOOP)));
+    public static final DeferredItem<Item> CHOCOLATE_ICECREAM_SCOOP = ITEMS.register("chocolate_icecream_scoop",
+            () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.CHOCOLATE_ICECREAM_SCOOP)));
 
     // Register
     public static void register(IEventBus eventBus) {
