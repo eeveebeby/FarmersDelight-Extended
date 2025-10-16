@@ -51,7 +51,6 @@ public class ModCreativeModeTabs {
 
                       // Group 4
                       output.accept(ModItems.GOLDEN_APPLE_CIDER);
-                      output.accept(ModItems.CHOCOLATE_BROWNIE);
                       output.accept(ModItems.BROWNIE_BATTER);
                       output.accept(ModItems.BROWNIE);
                       output.accept(ModItems.FRIED_MUSHROOM);
