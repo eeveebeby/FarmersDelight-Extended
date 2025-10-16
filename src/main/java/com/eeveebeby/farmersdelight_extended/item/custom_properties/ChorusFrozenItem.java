@@ -21,7 +21,6 @@ public class ChorusFrozenItem extends ChorusFruitItem {
         if (!pLevel.isClientSide()) {
             pEntity.extinguishFire();
             int currentTicksFrozen = pEntity.getTicksFrozen();
-            System.out.println(currentTicksFrozen);
             if (currentTicksFrozen < 500) {
                 pEntity.setTicksFrozen((currentTicksFrozen * 2) + FREEZING_DURATION);
             }
