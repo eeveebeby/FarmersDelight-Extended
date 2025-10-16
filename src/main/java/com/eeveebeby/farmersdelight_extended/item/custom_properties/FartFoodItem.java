@@ -11,8 +11,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 
-public class FreshCheeseItem extends Item {
-    public FreshCheeseItem(Properties properties) {
+public class FartFoodItem extends Item {
+    public FartFoodItem(Properties properties) {
         super(properties);
     }
 

@@ -1,15 +1,17 @@
 package com.eeveebeby.farmersdelight_extended.item.custom_properties;
 
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.ChorusFruitItem;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.NotNull;
 
-public class PopsicleIceCreamItem extends ExtinguishFoodItem{
+public class ChorusFrozenItem extends ChorusFruitItem {
     private static final int FREEZING_DURATION = 135;
 
-    public PopsicleIceCreamItem(Properties pProperties) {
-        super(pProperties);
+    public ChorusFrozenItem(Item.Properties properties) {
+        super(properties);
     }
 
     @Override

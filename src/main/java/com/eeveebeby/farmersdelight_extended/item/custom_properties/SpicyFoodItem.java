@@ -6,8 +6,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.NotNull;
 
-public class SpicyFriedChickenItem extends Item {
-    public SpicyFriedChickenItem(Properties pProperties) {
+public class SpicyFoodItem extends Item {
+    public SpicyFoodItem(Properties pProperties) {
         super(pProperties);
     }
 
