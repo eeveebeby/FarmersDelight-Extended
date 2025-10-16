@@ -1,6 +1,5 @@
 {
   "type": "farmersdelight:cooking",
-  "recipe_book_tab": "misc",
   "ingredients": [
     {
       "tag": "c:buckets/milk"
