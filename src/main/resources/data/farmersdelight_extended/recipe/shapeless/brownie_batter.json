@@ -1,5 +1,5 @@
 {
-  "type": "create:mixing",
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "tag": "c:flours/wheat"
@@ -14,14 +14,10 @@
       "item": "minecraft:egg"
     },
     {
-      "amount": 250,
-      "fluid": "minecraft:water",
-      "type": "fluid_stack"
+      "item": "minecraft:water_bucket"
     }
   ],
-  "results": [
-    {
-      "id": "farmersdelight_extended:brownie_batter"
-    }
-  ]
+  "result": {
+    "id": "farmersdelight_extended:brownie_batter"
+  }
 }
