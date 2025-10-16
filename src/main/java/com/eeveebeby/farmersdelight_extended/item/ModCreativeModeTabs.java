@@ -64,12 +64,12 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.CHORUS_ICECREAM_SCOOP);
                       output.accept(ModItems.SWEET_BERRY_ICECREAM_SCOOP);
                       output.accept(ModItems.CHOCOLATE_ICECREAM_SCOOP);
-//                      output.accept(ModItems.CHOCOLATE_GRAHAM_CRACKER);
-//                      output.accept(ModItems.ICECREAM_SANDWICH);
-//                      output.accept(ModItems.GLOW_BERRY_ICECREAM_SANDWICH);
-//                      output.accept(ModItems.CHORUS_ICECREAM_SANDWICH);
-//                      output.accept(ModItems.SWEET_BERRY_ICECREAM_SANDWICH);
-//                      output.accept(ModItems.CHOCOLATE_ICECREAM_SANDWICH);
+                      output.accept(ModItems.CHOCOLATE_GRAHAM_CRACKER);
+                      output.accept(ModItems.ICECREAM_SANDWICH);
+                      output.accept(ModItems.GLOW_BERRY_ICECREAM_SANDWICH);
+                      output.accept(ModItems.CHORUS_ICECREAM_SANDWICH);
+                      output.accept(ModItems.SWEET_BERRY_ICECREAM_SANDWICH);
+                      output.accept(ModItems.CHOCOLATE_ICECREAM_SANDWICH);
 //                      output.accept(ModItems.RICE_FLOUR);
 //                      output.accept(ModItems.MOCHI);
 //                      output.accept(ModItems.MOCHI_ICECREAM);

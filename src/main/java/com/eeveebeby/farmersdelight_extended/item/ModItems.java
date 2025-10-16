@@ -88,6 +88,18 @@ public class ModItems {
             () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.SWEET_BERRY_ICECREAM_SCOOP)));
     public static final DeferredItem<Item> CHOCOLATE_ICECREAM_SCOOP = ITEMS.register("chocolate_icecream_scoop",
             () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.CHOCOLATE_ICECREAM_SCOOP)));
+    public static final DeferredItem<Item> CHOCOLATE_GRAHAM_CRACKER = ITEMS.register("chocolate_graham_cracker",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CHOCOLATE_GRAHAM_CRACKER)));
+    public static final DeferredItem<Item> ICECREAM_SANDWICH = ITEMS.register("icecream_sandwich",
+            () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.ICECREAM_SANDWICH)));
+    public static final DeferredItem<Item> GLOW_BERRY_ICECREAM_SANDWICH = ITEMS.register("glow_berry_icecream_sandwich",
+            () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.GLOW_BERRY_ICECREAM_SANDWICH)));
+    public static final DeferredItem<Item> CHORUS_ICECREAM_SANDWICH = ITEMS.register("chorus_icecream_sandwich",
+            () -> new ChorusFrozenItem(new Item.Properties().food(ModFoodProperties.CHORUS_ICECREAM_SANDWICH)));
+    public static final DeferredItem<Item> SWEET_BERRY_ICECREAM_SANDWICH = ITEMS.register("sweet_berry_icecream_sandwich",
+            () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.SWEET_BERRY_ICECREAM_SANDWICH)));
+    public static final DeferredItem<Item> CHOCOLATE_ICECREAM_SANDWICH = ITEMS.register("chocolate_icecream_sandwich",
+            () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.CHOCOLATE_ICECREAM_SANDWICH)));
 
     // Register
     public static void register(IEventBus eventBus) {

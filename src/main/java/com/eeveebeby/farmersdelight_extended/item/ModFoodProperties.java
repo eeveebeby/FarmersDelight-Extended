@@ -103,11 +103,9 @@ public class ModFoodProperties {
             .nutrition(7).saturationModifier(.6f)
             .alwaysEdible().build();
     public static final FoodProperties SWEET_BERRY_CUSTARD = new FoodProperties.Builder()
-            .nutrition(7).saturationModifier(.6f)
-            .alwaysEdible().build();
+            .nutrition(7).saturationModifier(.6f).build();
     public static final FoodProperties CHOCOLATE_CUSTARD = new FoodProperties.Builder()
-            .nutrition(7).saturationModifier(.6f)
-            .alwaysEdible().build();
+            .nutrition(7).saturationModifier(.6f).build();
     public static final FoodProperties ICECREAM_SCOOP = new FoodProperties.Builder()
             .nutrition(6).saturationModifier(.6f)
             .alwaysEdible().build();
@@ -124,5 +122,25 @@ public class ModFoodProperties {
             .alwaysEdible().build();
     public static final FoodProperties CHOCOLATE_ICECREAM_SCOOP = new FoodProperties.Builder()
             .nutrition(6).saturationModifier(.6f)
+            .alwaysEdible().build();
+    public static final FoodProperties CHOCOLATE_GRAHAM_CRACKER = new FoodProperties.Builder()
+            .nutrition(2).saturationModifier(.1f)
+            .fast().build();
+    public static final FoodProperties ICECREAM_SANDWICH = new FoodProperties.Builder()
+            .nutrition(8).saturationModifier(.6f)
+            .alwaysEdible().build();
+    public static final FoodProperties GLOW_BERRY_ICECREAM_SANDWICH = new FoodProperties.Builder()
+            .nutrition(8).saturationModifier(.6f)
+            .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 100, 0), 1)
+            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 100, 0), 1)
+            .alwaysEdible().build();
+    public static final FoodProperties CHORUS_ICECREAM_SANDWICH = new FoodProperties.Builder()
+            .nutrition(8).saturationModifier(.6f)
+            .alwaysEdible().build();
+    public static final FoodProperties SWEET_BERRY_ICECREAM_SANDWICH = new FoodProperties.Builder()
+            .nutrition(8).saturationModifier(.6f)
+            .alwaysEdible().build();
+    public static final FoodProperties CHOCOLATE_ICECREAM_SANDWICH = new FoodProperties.Builder()
+            .nutrition(8).saturationModifier(.6f)
             .alwaysEdible().build();
 }
