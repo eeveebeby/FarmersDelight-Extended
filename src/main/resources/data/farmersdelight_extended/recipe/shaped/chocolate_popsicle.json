@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " MM",
+    "IMM",
+    "-I "
+  ],
+  "key": {
+    "-": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "minecraft:ice"
+    },
+    "M": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "id": "farmersdelight_extended:chocolate_popsicle"
+  }
+}
