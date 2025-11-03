@@ -2,7 +2,7 @@
   "type": "create:milling",
   "ingredients": [
     {
-      "item": "farmers_delight:rice"
+      "item": "farmersdelight:rice"
     }
   ],
   "processing_time": 150,
