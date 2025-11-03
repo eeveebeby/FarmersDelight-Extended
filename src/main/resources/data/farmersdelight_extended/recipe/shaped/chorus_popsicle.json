@@ -3,10 +3,10 @@
   "pattern": [
     " MM",
     "IMM",
-    "-I "
+    "SI "
   ],
   "key": {
-    "-": {
+    "S": {
       "item": "minecraft:stick"
     },
     "I": {
