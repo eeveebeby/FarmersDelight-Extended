@@ -105,6 +105,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.MOCHI)));
     public static final DeferredItem<Item> MOCHI_ICECREAM = ITEMS.register("mochi_icecream",
             () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.MOCHI_ICECREAM)));
+    public static final DeferredItem<Item> UNPROCESSED_MOCHI = ITEMS.register("unprocessed_mochi",
+            () -> new Item(new Item.Properties()));
+        
 
     // Register
     public static void register(IEventBus eventBus) {
