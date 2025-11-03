@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "farmers_delight:rice"
+    }
+  ],
+  "processing_time": 150,
+  "results": [
+    {
+      "count": 2,
+      "id": "farmersdelight_extended:rice_flour"
+    },
+    {
+      "chance": 0.25,
+      "id": "farmersdelight_extended:rice_flour"
+    }
+  ]
+}
