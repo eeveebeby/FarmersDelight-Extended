@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "I",
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "farmersdelight_extended:chocolate_graham_cracker"
+    },
+    "I": {
+      "item": "farmersdelight_extended:icecream_scoop"
+    }
+  },
+  "result": {
+    "id": "farmersdelight_extended:icecream_sandwich"
+  }
+}
