@@ -5,6 +5,7 @@ import java.util.Properties;
 import com.eeveebeby.farmersdelight_extended.FarmersDelight_Extended;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -73,6 +74,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.BATTERED_MUSHROOM)));
     public static final DeferredItem<Item> FRIED_MUSHROOM = ITEMS.register("fried_mushroom",
             () -> new Item(new Item.Properties().food(ModFoodProperties.FRIED_MUSHROOM)));
+    public static final DeferredItem<Item> SPECIAL_BROWNIE = ITEMS.register("special_brownie",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SPECIAL_BROWNIE).rarity(Rarity.UNCOMMON)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
