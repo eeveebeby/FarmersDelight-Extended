@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "farmersdelight_extended:shredded_potatoes"
+  },
+  "result": {
+    "id": "farmersdelight_extended:hashbrowns"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

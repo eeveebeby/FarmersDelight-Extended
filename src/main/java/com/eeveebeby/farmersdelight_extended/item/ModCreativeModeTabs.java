@@ -48,7 +48,34 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.SHREDDED_POTATOES);
                       output.accept(ModItems.HASHBROWNS);
                       output.accept(ModItems.BREAKFAST_PLATE);
+
+                      // Group 4
+                      output.accept(ModItems.CHORUS_COOKIE);
+                      output.accept(ModItems.GLOW_BERRY_COOKIE);
+                      output.accept(ModItems.CHORUS_POPSICLE);
+                      output.accept(ModItems.GLOW_BERRY_POPSICLE);
+                      output.accept(ModItems.SWEET_BERRY_POPSICLE);
+                      output.accept(ModItems.CHOCOLATE_POPSICLE);
+                      output.accept(ModItems.CHORUS_CUSTARD);
+                      output.accept(ModItems.SWEET_BERRY_CUSTARD);
+                      output.accept(ModItems.CHOCOLATE_CUSTARD);
+                      output.accept(ModItems.ICECREAM_SCOOP);
+                      output.accept(ModItems.GLOW_BERRY_ICECREAM_SCOOP);
+                      output.accept(ModItems.CHORUS_ICECREAM_SCOOP);
+                      output.accept(ModItems.SWEET_BERRY_ICECREAM_SCOOP);
+                      output.accept(ModItems.CHOCOLATE_ICECREAM_SCOOP);
+                      output.accept(ModItems.CHOCOLATE_GRAHAM_CRACKER);
+                      output.accept(ModItems.ICECREAM_SANDWICH);
+                      output.accept(ModItems.GLOW_BERRY_ICECREAM_SANDWICH);
+                      output.accept(ModItems.CHORUS_ICECREAM_SANDWICH);
+                      output.accept(ModItems.SWEET_BERRY_ICECREAM_SANDWICH);
+                      output.accept(ModItems.CHOCOLATE_ICECREAM_SANDWICH);
+                      output.accept(ModItems.RICE_FLOUR);
+                      output.accept(ModItems.MOCHI);
+                      output.accept(ModItems.MOCHI_ICECREAM);
                     }).build());
+
+
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);

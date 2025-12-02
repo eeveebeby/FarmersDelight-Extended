@@ -1,0 +1,55 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "farmersdelight_extended:rice_flour"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "farmersdelight_extended:mochi"
+    }
+  ],
+  "sequence": [
+        {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "farmersdelight_extended:unprocessed_mochi" },
+        { "type": "fluid_tag", "amount": 250, "fluid_tag": "c:water" }
+      ],
+      "results": [
+        { "id": "farmersdelight_extended:unprocessed_mochi" }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "farmersdelight_extended:unprocessed_mochi" },
+        { "item": "minecraft:sugar" }
+      ],
+      "results": [
+        { "id": "farmersdelight_extended:unprocessed_mochi" }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        { "item": "farmersdelight_extended:unprocessed_mochi" }
+      ],
+      "results": [
+        { "id": "farmersdelight_extended:unprocessed_mochi" }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        { "item": "farmersdelight_extended:unprocessed_mochi" }
+      ],
+      "results": [
+        { "id": "farmersdelight_extended:unprocessed_mochi" }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "farmersdelight_extended:unprocessed_mochi"
+  }
+}

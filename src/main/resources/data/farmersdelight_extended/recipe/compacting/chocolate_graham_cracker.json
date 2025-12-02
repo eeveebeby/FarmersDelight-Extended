@@ -1,0 +1,23 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "create:honey"
+    },
+    {
+      "tag": "c:flours/wheat"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "id": "farmersdelight_extended:chocolate_graham_cracker"
+    }
+  ]
+}

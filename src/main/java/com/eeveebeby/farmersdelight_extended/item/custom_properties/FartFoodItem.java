@@ -1,7 +1,6 @@
-package com.eeveebeby.farmersdelight_extended.item;
+package com.eeveebeby.farmersdelight_extended.item.custom_properties;
 
-import net.minecraft.ChatFormatting;
-import net.minecraft.network.chat.Component;
+import com.eeveebeby.farmersdelight_extended.item.ModSounds;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
@@ -12,8 +11,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 
-public class FreshCheeseItem extends Item {
-    public FreshCheeseItem(Properties properties) {
+public class FartFoodItem extends Item {
+    public FartFoodItem(Properties properties) {
         super(properties);
     }
 
