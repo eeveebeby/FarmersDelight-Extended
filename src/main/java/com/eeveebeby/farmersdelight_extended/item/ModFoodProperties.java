@@ -147,4 +147,23 @@ public class ModFoodProperties {
             .nutrition(6).saturationModifier(.6f).build();
     public static final FoodProperties MOCHI_ICECREAM = new FoodProperties.Builder()
             .nutrition(12).saturationModifier(.4f).alwaysEdible().build();
+    public static final FoodProperties GOLDEN_APPLE_CIDER = new FoodProperties.Builder()
+            .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 2400, 1), 1)
+            .build();
+    public static final FoodProperties BROWNIE = new FoodProperties.Builder()
+            .nutrition(8).saturationModifier(.6f)
+            .build();
+    public static final FoodProperties BROWNIE_BATTER = new FoodProperties.Builder()
+            .nutrition(2).saturationModifier(.3f)
+            .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3f).build();
+    public static final FoodProperties BATTERED_MUSHROOM = new FoodProperties.Builder()
+            .nutrition(2).saturationModifier(.2f)
+            .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3f).build();
+    public static final FoodProperties FRIED_MUSHROOM = new FoodProperties.Builder()
+            .nutrition(6).saturationModifier(.6f).build();
+//     public static final FoodProperties SPECIAL_BROWNIE = new FoodProperties.Builder()
+//             .nutrition(8).saturationModifier(.6f)
+//             .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 2400, 0), 1)
+//             .effect(() -> new MobEffectInstance(ModEffects.COMFORT, 6000, 0), 1)
+//             .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 800, 0), 0.2f).build();
 }

@@ -1,12 +1,17 @@
 package com.eeveebeby.farmersdelight_extended.item;
 
+import java.util.Properties;
+
 import com.eeveebeby.farmersdelight_extended.FarmersDelight_Extended;
 import com.eeveebeby.farmersdelight_extended.item.custom_properties.*;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import vectorwing.farmersdelight.common.item.DrinkableItem;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(FarmersDelight_Extended.MOD_ID);
@@ -110,6 +115,20 @@ public class ModItems {
         
 
     // Register
+    // Group 4
+    public static final DeferredItem<Item> GOLDEN_APPLE_CIDER = ITEMS.register("golden_apple_cider",
+            () -> new DrinkableItem(new Item.Properties().food(ModFoodProperties.GOLDEN_APPLE_CIDER).stacksTo(16).craftRemainder(Items.GLASS_BOTTLE), true, false));
+    public static final DeferredItem<Item> BROWNIE = ITEMS.register("brownie",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BROWNIE)));
+    public static final DeferredItem<Item> BROWNIE_BATTER = ITEMS.register("brownie_batter",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BROWNIE_BATTER)));
+    public static final DeferredItem<Item> BATTERED_MUSHROOM = ITEMS.register("battered_mushroom",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BATTERED_MUSHROOM)));
+    public static final DeferredItem<Item> FRIED_MUSHROOM = ITEMS.register("fried_mushroom",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.FRIED_MUSHROOM)));
+//     public static final DeferredItem<Item> SPECIAL_BROWNIE = ITEMS.register("special_brownie",
+//             () -> new Item(new Item.Properties().food(ModFoodProperties.SPECIAL_BROWNIE).rarity(Rarity.UNCOMMON)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

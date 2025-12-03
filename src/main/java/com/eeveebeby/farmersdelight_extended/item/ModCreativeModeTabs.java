@@ -73,6 +73,13 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.RICE_FLOUR);
                       output.accept(ModItems.MOCHI);
                       output.accept(ModItems.MOCHI_ICECREAM);
+
+                      // Group 4
+                      output.accept(ModItems.GOLDEN_APPLE_CIDER);
+                      output.accept(ModItems.BROWNIE_BATTER);
+                      output.accept(ModItems.BROWNIE);
+                      output.accept(ModItems.FRIED_MUSHROOM);
+                      output.accept(ModItems.BATTERED_MUSHROOM);
                     }).build());
 
 

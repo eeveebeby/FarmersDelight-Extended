@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:flours/wheat"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "amount": 250,
+      "fluid": "minecraft:water",
+      "type": "fluid_stack"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight_extended:brownie_batter"
+    }
+  ]
+}
