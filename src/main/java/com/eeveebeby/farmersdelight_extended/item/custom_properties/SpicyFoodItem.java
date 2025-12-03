@@ -1,15 +1,13 @@
-package com.eeveebeby.farmersdelight_extended.item;
+package com.eeveebeby.farmersdelight_extended.item.custom_properties;
 
-import net.minecraft.ChatFormatting;
-import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.NotNull;
 
-public class SpicyFriedChickenItem extends Item {
-    public SpicyFriedChickenItem(Properties pProperties) {
+public class SpicyFoodItem extends Item {
+    public SpicyFoodItem(Properties pProperties) {
         super(pProperties);
     }
 

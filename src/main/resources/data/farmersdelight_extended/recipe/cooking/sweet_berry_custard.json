@@ -3,11 +3,20 @@
   "recipe_book_tab": "meals",
   "ingredients": [
     {
+      "item": "minecraft:sweet_berries"
+    },
+    {
       "tag": "c:buckets/milk"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:eggs"
     }
   ],
   "result": {
-    "id": "farmersdelight_extended:fresh_cheese"
+    "id": "farmersdelight_extended:sweet_berry_custard"
   },
   "cookingtime": 200,
   "experience": 1.0

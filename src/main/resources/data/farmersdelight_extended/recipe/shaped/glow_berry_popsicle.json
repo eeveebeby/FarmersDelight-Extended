@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " MM",
+    "IMM",
+    "SI "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "minecraft:ice"
+    },
+    "M": {
+      "item": "minecraft:glow_berries"
+    }
+  },
+  "result": {
+    "id": "farmersdelight_extended:glow_berry_popsicle"
+  }
+}
