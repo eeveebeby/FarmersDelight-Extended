@@ -127,7 +127,7 @@ public class ModFoodProperties {
             .nutrition(2).saturationModifier(.1f)
             .fast().build();
     public static final FoodProperties ICECREAM_SANDWICH = new FoodProperties.Builder()
-            .nutrition(8).saturationModifier(.6f)
+            .nutrition(10).saturationModifier(.6f)
             .alwaysEdible().build();
     public static final FoodProperties GLOW_BERRY_ICECREAM_SANDWICH = new FoodProperties.Builder()
             .nutrition(8).saturationModifier(.6f)
@@ -146,7 +146,7 @@ public class ModFoodProperties {
     public static final FoodProperties MOCHI = new FoodProperties.Builder()
             .nutrition(6).saturationModifier(.6f).build();
     public static final FoodProperties MOCHI_ICECREAM = new FoodProperties.Builder()
-            .nutrition(12).saturationModifier(.4f).alwaysEdible().build();
+            .nutrition(14).saturationModifier(.4f).alwaysEdible().build();
     public static final FoodProperties GOLDEN_APPLE_CIDER = new FoodProperties.Builder()
             .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 2400, 1), 1)
             .build();
