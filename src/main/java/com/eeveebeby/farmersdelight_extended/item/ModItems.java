@@ -109,7 +109,7 @@ public class ModItems {
     public static final DeferredItem<Item> MOCHI = ITEMS.register("mochi",
             () -> new Item(new Item.Properties().food(ModFoodProperties.MOCHI)));
     public static final DeferredItem<Item> MOCHI_ICECREAM = ITEMS.register("mochi_icecream",
-            () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.MOCHI_ICECREAM)));
+            () -> new FrozenFoodItem(new Item.Properties().food(ModFoodProperties.MOCHI_ICECREAM).stacksTo(16).craftRemainder(Items.BOWL)));
     public static final DeferredItem<Item> UNPROCESSED_MOCHI = ITEMS.register("unprocessed_mochi",
             () -> new Item(new Item.Properties()));
         

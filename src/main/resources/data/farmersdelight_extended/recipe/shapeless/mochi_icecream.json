@@ -6,6 +6,15 @@
     },
     {
       "item": "farmersdelight_extended:icecream_scoop"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:bowl"
     }
   ],
   "result": {
