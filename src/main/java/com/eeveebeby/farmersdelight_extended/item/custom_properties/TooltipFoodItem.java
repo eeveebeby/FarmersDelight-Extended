@@ -38,7 +38,7 @@ public class TooltipFoodItem extends Item {
             MutableComponent text = Component.translatable(effect.getDescriptionId());
 
             // Amplifier (I, II, III…)
-            if (effect.getAmplifier() >= 0) {
+            if (effect.getAmplifier() > 1) {
                 text = text.append(" ")
                         .append(Component.literal(toRoman(effect.getAmplifier() + 1)));
             }
@@ -63,7 +63,7 @@ public class TooltipFoodItem extends Item {
             if (chance < 1.0f) {
                 int percent = Math.round(chance * 100);
                 tooltip.add(
-                        Component.literal(" " + percent + "% chance")
+                        Component.literal(percent + "% chance")
                                 .withStyle(ChatFormatting.DARK_GRAY)
                 );
             }
@@ -81,7 +81,6 @@ public class TooltipFoodItem extends Item {
 
     private static String toRoman(int number) {
         return switch (number) {
-            case 1 -> "I";
             case 2 -> "II";
             case 3 -> "III";
             case 4 -> "IV";
