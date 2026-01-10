@@ -149,6 +149,7 @@ public class ModFoodProperties {
             .nutrition(14).saturationModifier(.4f).alwaysEdible().build();
     public static final FoodProperties GOLDEN_APPLE_CIDER = new FoodProperties.Builder()
             .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 2400, 1), 1)
+            .alwaysEdible()
             .build();
     public static final FoodProperties BROWNIE = new FoodProperties.Builder()
             .nutrition(8).saturationModifier(.6f)
