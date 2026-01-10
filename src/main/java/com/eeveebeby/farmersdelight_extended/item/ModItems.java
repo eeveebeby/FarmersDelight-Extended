@@ -18,7 +18,7 @@ public class ModItems {
 
     // Group 1
     public static final DeferredItem<Item> BATTERED_COD = ITEMS.register("battered_cod",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.BATTERED_COD)));
+            () -> new TooltipFoodItem(new Item.Properties().food(ModFoodProperties.BATTERED_COD)));
     public static final DeferredItem<Item> FRIED_COD = ITEMS.register("fried_cod",
             () -> new Item(new Item.Properties().food(ModFoodProperties.FRIED_COD)));
 
@@ -28,7 +28,7 @@ public class ModItems {
     public static final DeferredItem<Item> FRIES = ITEMS.register("fries",
             () -> new Item(new Item.Properties().food(ModFoodProperties.FRIES)));
     public static final DeferredItem<Item> FISH_AND_CHIPS = ITEMS.register("fish_and_chips",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.FISH_AND_CHIPS).stacksTo(16).craftRemainder(Items.BOWL)));
+            () -> new TooltipFoodItem(new Item.Properties().food(ModFoodProperties.FISH_AND_CHIPS).stacksTo(16).craftRemainder(Items.BOWL)));
     public static final DeferredItem<Item> HONEY_ROLL = ITEMS.register("honey_roll",
             () -> new Item(new Item.Properties().food(ModFoodProperties.HONEY_ROLL)));
     public static final DeferredItem<Item> CHOCOLATE_ROLL = ITEMS.register("chocolate_roll",
@@ -38,11 +38,11 @@ public class ModItems {
     public static final DeferredItem<Item> TOAST = ITEMS.register("toast",
             () -> new Item(new Item.Properties().food(ModFoodProperties.TOAST)));
     public static final DeferredItem<Item> BATTERED_CHICKEN = ITEMS.register("battered_chicken",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.BATTERED_CHICKEN)));
+            () -> new TooltipFoodItem(new Item.Properties().food(ModFoodProperties.BATTERED_CHICKEN)));
     public static final DeferredItem<Item> FRIED_CHICKEN = ITEMS.register("fried_chicken",
             () -> new Item(new Item.Properties().food(ModFoodProperties.FRIED_CHICKEN)));
     public static final DeferredItem<Item> CHICKEN_AND_FRIES = ITEMS.register("chicken_and_fries",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.CHICKEN_AND_FRIES).stacksTo(16).craftRemainder(Items.BOWL)));
+            () -> new TooltipFoodItem(new Item.Properties().food(ModFoodProperties.CHICKEN_AND_FRIES).stacksTo(16).craftRemainder(Items.BOWL)));
 
     // Group 3
     public static final DeferredItem<Item> FRESH_CHEESE = ITEMS.register("fresh_cheese",
@@ -50,9 +50,9 @@ public class ModItems {
     public static final DeferredItem<Item> CHEESEBURGER = ITEMS.register("cheeseburger",
             () -> new Item(new Item.Properties().food(ModFoodProperties.CHEESEBURGER)));
     public static final DeferredItem<Item> CHICKEN_PARMESAN = ITEMS.register("chicken_parmesan",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.CHICKEN_PARMESAN).stacksTo(16).craftRemainder(Items.BOWL)));
+            () -> new TooltipFoodItem(new Item.Properties().food(ModFoodProperties.CHICKEN_PARMESAN).stacksTo(16).craftRemainder(Items.BOWL)));
     public static final DeferredItem<Item> BEEF_WELLINGTON = ITEMS.register("beef_wellington",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.BEEF_WELLINGTON).stacksTo(16).craftRemainder(Items.BOWL)));
+            () -> new TooltipFoodItem(new Item.Properties().food(ModFoodProperties.BEEF_WELLINGTON).stacksTo(16).craftRemainder(Items.BOWL)));
     public static final DeferredItem<Item> SPICY_FRIED_CHICKEN = ITEMS.register("spicy_fried_chicken",
             () -> new SpicyFoodItem(new Item.Properties().food(ModFoodProperties.SPICY_FRIED_CHICKEN)));
     public static final DeferredItem<Item> SPICY_CHICKEN_AND_FRIES = ITEMS.register("spicy_chicken_and_fries",
@@ -62,13 +62,13 @@ public class ModItems {
     public static final DeferredItem<Item> HASHBROWNS = ITEMS.register("hashbrowns",
             () -> new Item(new Item.Properties().food(ModFoodProperties.HASHBROWNS)));
     public static final DeferredItem<Item> BREAKFAST_PLATE = ITEMS.register("breakfast_plate",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.BREAKFAST_PLATE).stacksTo(16).craftRemainder(Items.BOWL)));
+            () -> new TooltipFoodItem(new Item.Properties().food(ModFoodProperties.BREAKFAST_PLATE).stacksTo(16).craftRemainder(Items.BOWL)));
 
     //Group 4
     public static final DeferredItem<Item> CHORUS_COOKIE = ITEMS.register("chorus_cookie",
             () -> new ChorusFoodItem(new Item.Properties().food(ModFoodProperties.CHORUS_COOKIE)));
     public static final DeferredItem<Item> GLOW_BERRY_COOKIE = ITEMS.register("glow_berry_cookie",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.GLOW_BERRY_COOKIE)));
+            () -> new TooltipFoodItem(new Item.Properties().food(ModFoodProperties.GLOW_BERRY_COOKIE)));
     public static final DeferredItem<Item> CHORUS_POPSICLE = ITEMS.register("chorus_popsicle",
             () -> new ChorusFrozenItem(new Item.Properties().food(ModFoodProperties.CHORUS_POPSICLE)));
     public static final DeferredItem<Item> GLOW_BERRY_POPSICLE = ITEMS.register("glow_berry_popsicle",
@@ -121,9 +121,9 @@ public class ModItems {
     public static final DeferredItem<Item> BROWNIE = ITEMS.register("brownie",
             () -> new Item(new Item.Properties().food(ModFoodProperties.BROWNIE)));
     public static final DeferredItem<Item> BROWNIE_BATTER = ITEMS.register("brownie_batter",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.BROWNIE_BATTER)));
+            () -> new TooltipFoodItem(new Item.Properties().food(ModFoodProperties.BROWNIE_BATTER)));
     public static final DeferredItem<Item> BATTERED_MUSHROOM = ITEMS.register("battered_mushroom",
-            () -> new Item(new Item.Properties().food(ModFoodProperties.BATTERED_MUSHROOM)));
+            () -> new TooltipFoodItem(new Item.Properties().food(ModFoodProperties.BATTERED_MUSHROOM)));
     public static final DeferredItem<Item> FRIED_MUSHROOM = ITEMS.register("fried_mushroom",
             () -> new Item(new Item.Properties().food(ModFoodProperties.FRIED_MUSHROOM)));
 //     public static final DeferredItem<Item> SPECIAL_BROWNIE = ITEMS.register("special_brownie",
